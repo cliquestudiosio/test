@@ -3,7 +3,13 @@
 **Working domain:** lunchkit.app
 **Build target:** Claude Code, working directly against this project's GitHub repository. This file lives at the repo root as `CLAUDE.md` and is read automatically as project instructions the moment Claude Code opens the repo — no re-explaining context in chat.
 **Document status:** Build-ready
-**Last updated:** 2026-08-26
+**Last updated:** 2026-09-04
+
+---
+
+## Coding Standards (Non-Negotiable)
+
+Before writing, generating, or editing any code in this repo — HTML, CSS, TypeScript/JavaScript, React components, or code shown in chat — **invoke the `fes-coding-standards` skill first** and follow it. This applies automatically to every code change in this build, not just when explicitly requested. Do this every session, not just the first time this file is read.
 
 ---
 
